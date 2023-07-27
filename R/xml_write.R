@@ -10,8 +10,7 @@
 #' @param encoding The character encoding to use in the document. The default
 #' encoding is \sQuote{UTF-8}. Available encodings are specified at
 #' <http://xmlsoft.org/html/libxml-encoding.html#xmlCharEncoding>.
-#' @param options default: \sQuote{format}. Zero or more of
-#' \Sexpr[results=rd]{xml2:::describe_options(xml2:::xml_save_options())}
+#' @param options default: \sQuote{format}.
 #' @param ... additional arguments passed to methods.
 #' @export
 #' @examples

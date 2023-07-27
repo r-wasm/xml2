@@ -54,8 +54,7 @@ encoding directive, this allows you to supply a default.}
 
 \item{as_html}{Optionally parse an xml file as if it's html.}
 
-\item{options}{Set parsing options for the libxml2 parser. Zero or more of
-\Sexpr[results=rd]{xml2:::describe_options(xml2:::xml_parse_options())}}
+\item{options}{Set parsing options for the libxml2 parser.}
 
 \item{base_url}{When loading from a connection, raw vector or literal
 html/xml, this allows you to specify a base url for the document. Base
